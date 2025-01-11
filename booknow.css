@@ -1,0 +1,149 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: -1;
+    padding: 0;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+h1 {
+    font-size: 3.3rem;
+    margin-top: 5%;
+    text-align: center;
+    font-family: 'TAN Meringue', serif;
+    color: #623e2a;
+    margin-bottom: 20px;
+}
+.rooms {
+    display: flex;
+    justify-content: space-between;
+}
+.room {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 30%;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.room img {
+    width: 100%;
+    border-radius: 8px;
+}
+.room h2 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+.room p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+.room .price {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+ 
+/* section 2 css */
+body {
+    background-color:#8b5e34 ;
+    font-family: Arial, sans-serif;
+    color: #5a3e36;
+    text-align: center;
+    padding: 20px;
+}
+.offers-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.offer {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 30%;
+    text-align: left;
+}
+.offer img {
+    width: 100%;
+    height: auto;
+}
+.offer-content {
+    padding: 20px;
+}
+.offer-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+.offer-description {
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+.book-now-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #5a3e36;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+}
+.book-now-btn:hover {
+    background-color: #3e2b26;
+}
+/* section 3 css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #c2b19c;
+    margin: 0;
+    padding: 0;
+}
+
+.luxury-room-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.text-content {
+    max-width: 40%;
+}
+
+.luxury-room-title {
+    font-family: 'TAN Meringue', serif;
+    font-size: 2.9rem;
+    margin-top: 1px;
+    color: #623e2a;
+}
+
+.luxury-room-description {
+    font-family: 'The youngest', sans-serif;
+    font-size: 1.1rem;
+    color: #623e2a;
+}
+
+.image-content {
+    max-width: 50%;
+}
+
+.image-content img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.image-caption {
+    font-family: 'The youngest', sans-serif;
+    font-size: 1.1rem;
+    color: #623e2a;
+    margin-top: 10px;
+}

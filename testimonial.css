@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.testimonial-section {
+    width: 60%;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.testimonial-title {
+    font-family: 'TAN Meringue', serif;
+    font-size: 50px;
+    color: #623e2a;
+    margin-bottom: 20px;
+}
+
+.testimonial {
+    margin-bottom: 20px;
+}
+
+.testimonial-text {
+    font-family: 'The youngest', sans-serif;
+    font-size: 2rem;
+    color: #623e2a;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #c2b19c;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   text-align: center;
+}
+
+/* General Styling */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #dfdbcb;
+  color: #000;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Navbar Styling */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #faf8f5;
+  padding: 20px 50px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.logo {
+  font-size: 32px;
+  font-weight: bold;
+  color: #000;
+}
+
+.nav-links {
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
+  padding: 10px 15px;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #fff;
+  background-color: #966e47;
+  border-radius: 5px;
+}
+
+.nav-links a.active {
+  background-color: #966e47;
+  color: #fff;
+  border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+  
+  
